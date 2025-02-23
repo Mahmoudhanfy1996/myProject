@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+header {
+    background-color: #ff6600;
+    height: 90px;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+}
+#logo1{
+
+    background-color: aqua;
+    height: 90px;
+    margin: 0%;
+}
+
+#mainheader{
+ color: #000000;
+ font-size: 40px;
+ justify-content: center;
+ padding-right: 100px;
+ 
+}
+
+nav ul {
+    list-style: none;
+    padding: 30px;
+
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    background: url('img/20240608-Iowa-Loose-Meat-Sandwiches-Qi-Ai-hero-01-4-3sandwichinframeclosercrop-1e6a6dfc714c491cb1b9e5c4168dc7b4.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+    height:100% ;
+}
+
+section {
+    padding: 20px;
+    text-align: center;
+    display: block;
+    margin: 0px;
+    background-color: #f9f9f9;
+}
+#menu {
+
+ display: flex;
+
+}
+.menus{
+
+    color: #000000;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+
+}
+.menu-item {
+    background: white;
+    padding: 15px;
+    margin: 10px auto;
+    max-width: 300px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    justify-content: center;
+}
+.about{
+
+    background-color: #333;
+}
+.about{
+
+    color: #f8f8f8;
+}
+
+#gallery h1{
+
+ font-weight: bold;
+ justify-content: center
+ ;
+
+
+}
+#gallery img{
+    padding: 10px;
+    margin: 60px;
+    width: 350px;
+    height: 350px;
+
+    
+
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
